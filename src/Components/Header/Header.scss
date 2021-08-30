@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5%;
+    align-items: center;
+    background-color: rgb(39, 42, 214);
+    box-shadow:  0 0 10px rgb(39, 42, 214);
+    h1{
+        margin: 0;
+        color: white;
+    }
+    div{
+        position: relative;
+        width: 500px;
+        input{
+            padding: 10px 10px;
+            border:0;
+            outline: 0;
+            border-radius: 20px;
+            width: 100%;
+        }
+        .searchIcon{
+            position: absolute;
+            right: -2%;
+            cursor: pointer;
+            top: 25%;
+        }
+    }
+    button{
+        padding: 10px;
+        width: 150px;
+        border-radius: 20px;
+        border:0;
+        outline: 0;
+        cursor: pointer;
+        background: none;
+        color: white;
+        font-weight: bold;
+        border:2px solid white;
+    }
+}

@@ -1,0 +1,65 @@
+.cardRoot{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    .card{
+        width: 600px;
+        height: 400px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        h1{
+            color: blue;
+            text-align: center;
+        }
+        h2{
+            text-transform: capitalize;
+        }
+        .iconsHot{
+            color: orange;
+            font-size: 40px;
+
+        }
+        .iconsNorm{
+            color: lightblue;
+        }
+        div{
+            width: 60%;
+            margin: auto;
+            h2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 50px 0;
+                color: blue;
+                .icons{
+                    color: white;
+                    font-size: 40px;
+
+                }
+                .iconsCloud{
+                    color: lightblue;
+                    font-size: 40px;
+
+                }
+                .iconsRain{
+                    color: blue;
+                    font-size: 40px;
+
+                }
+                .iconsSun{
+                    color: gold;
+                    font-size: 40px;
+
+                }
+                .iconsTime{
+                    color: green;
+                    font-size: 40px;
+
+                }
+            }
+
+
+
+        }
+    }
+}
